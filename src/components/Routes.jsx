@@ -9,9 +9,9 @@ export const Routes = () => {
         <Route exact path="/">
           <Redirect to="/search" />
         </Route>
-        {/* <Route exact path={["/search", "image", "/news", "/video"]}>
+        <Route exact path="/search">
           <Results />
-        </Route> */}
+        </Route>
         <Route path="/image">
           <Results />
         </Route>
